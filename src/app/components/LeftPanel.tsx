@@ -2,9 +2,9 @@ import Image from 'next/image'
 
 export function LeftPanel() {
   return (
-    <div className="flex flex-col justify-center items-center  px-1 py-4 gap-3 w-53">
-      <div className='flex flex-col items-center justify-center rounded-3xl  bg-white w-full gap-3'>
-        <div className='py-8 px-3 flex flex-col justify-center items-center gap-3'>
+    <div className="flex flex-col justify-center items-center gap-3 w-53">
+      <div className='flex flex-col items-center justify-center rounded-3xl  bg-white w-full'>
+        <div className='py-10 px-3 flex flex-col justify-center items-center gap-3'>
           <Image className='cursor-pointer rounded-full' src='/Treiber.jpg' alt='user avatar' width={67} height={67} />
 
           <div className='flex flex-col w-full justify-center items-center'>
@@ -12,27 +12,27 @@ export function LeftPanel() {
             <span className='text-xs text-[#9E9E9E]'>Full stack web developer</span>
           </div>
 
-          <button className='bg-[#5E47D2] text-white rounded-md p-3'>View Profile</button>
+          <button className='bg-[#5E47D2] text-white rounded-md px-3 py-1.5'>View Profile</button>
         </div>
 
         <div className='flex flex-col gap-8 w-full px-8 pb-10'>
-          <div className='flex gap-2 cursor-pointer'>
+          <div className='flex gap-2 cursor-pointer items-center'>
             <Image className='cursor-pointer rounded-full' src='/Home.png' alt='Home icon' width={18} height={18} />
             <span>Home</span>
           </div>
-          <div className='flex gap-2 cursor-pointer'>
+          <div className='flex gap-2 cursor-pointer items-center'>
             <Image className='cursor-pointer rounded-full' src='/layers.png' alt='Home icon' width={18} height={18} />
             <span>My Network</span>
           </div>
-          <div className='flex gap-2 cursor-pointer'>
+          <div className='flex gap-2 cursor-pointer items-center'>
             <Image className='cursor-pointer rounded-full' src='/briefcase.png' alt='Home icon' width={18} height={18} />
             <span>Jobs</span>
           </div>
-          <div className='flex gap-2 cursor-pointer'>
+          <div className='flex gap-2 cursor-pointer items-center'>
             <Image className='cursor-pointer rounded-full' src='/mail.png' alt='Home icon' width={18} height={18} />
             <span>Messaging</span>
           </div>
-          <div className='flex gap-2 cursor-pointer'>
+          <div className='flex gap-2 cursor-pointer items-center'>
             <Image className='cursor-pointer rounded-full' src='/monitor.png' alt='Home icon' width={18} height={18} />
             <span>For Business</span>
           </div>

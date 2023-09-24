@@ -1,11 +1,12 @@
 import { LeftPanel } from "./LeftPanel"
+import { RightPanel } from "./RightPanel"
 
 export function Main() {
   return (
-    <div className='flex items-center justify-between mt-4'>
+    <div className='flex justify-between mt-4'>
       <LeftPanel />
       <div>Main content</div>
-      <div>Right panel</div>
+      <RightPanel />
     </div>
   )
 }
