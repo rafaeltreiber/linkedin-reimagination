@@ -49,18 +49,68 @@ export function CenterPanel() {
 
       <div className='flex flex-col bg-white rounded-3xl p-5 w-full gap-4'>
         <div className='flex gap-4 items-center'>
-          <Image className='cursor-pointer rounded-full' src='/Ellipse 88.png' alt='picture image' width={48} height={48} />
-          <div className='flex flex-col'>
-            <span className='font-semibold text-[16px]'>Emerson Carder</span>
-            <span className='text-[12px] text-[#757575]'>Product Designer, Figma</span>
-            <div className='flex gap-1 items-center'>
-              <Image src='/Timer.png' alt='Clock icon' width={10} height={9} />
-              <span className='text-[12px]'>30 min</span>
+          <div className='flex justify-between w-full'>
+            <div className='flex items-center gap-4'>
+              <Image className='cursor-pointer rounded-full' src='/Ellipse 88.png' alt='picture image' width={48} height={48} />
+              <div className='flex flex-col'>
+                <span className='font-semibold text-[16px]'>Emerson Carder</span>
+                <span className='text-[12px] text-[#757575]'>Product Designer, Figma</span>
+                <div className='flex gap-1 items-center'>
+                  <Image src='/Timer.png' alt='Clock icon' width={10} height={9} />
+                  <span className='text-[12px]'>30 min</span>
+                </div>
+              </div>
+            </div>
+            <div className='flex flex-col gap-1'>
+              <div className='w-1 h-1 rounded-full bg-black'></div>
+              <div className='w-1 h-1 rounded-full bg-black'></div>
+              <div className='w-1 h-1 rounded-full bg-black'></div>
             </div>
           </div>
+
         </div>
         <p>From day 1, Figma was purpose-built for designers. As product development has become increasingly collaborative, 30% of Figma’s active users are developers—it’s time that we focused on developers and their unique needs. #Figma #Design</p>
 
+        <div className='flex justify-between'>
+          <div className='flex items-center gap-3'>
+            <Image className='cursor-pointer rounded-full' src='/avatar1.png' alt='avatar image' width={29} height={28} />
+            <span className='text-[10px] font-bold'>23 comments</span>
+          </div>
+          <div className='flex gap-5'>
+            <div className='flex gap-2 rounded-3xl border-2 items-center p-2 font-semibold bg-[#F5F5F5]'>
+              <Image className='cursor-pointer rounded-full' src='/ThumbsUp.png' alt='Like image' width={20} height={20} />
+              <span>Like</span>
+            </div>
+            <div className='flex gap-2 rounded-3xl border-2 items-center p-2 font-semibold bg-[#F5F5F5]'>
+              <Image className='cursor-pointer rounded-full' src='/Comment.png' alt='Comment image' width={20} height={20} />
+              <span>Comment</span>
+            </div>
+            <div className='flex gap-2 rounded-3xl border-2 items-center p-2 font-semibold bg-[#F5F5F5]'>
+              <Image className='cursor-pointer rounded-full' src='/ShareNetwork.png' alt='Share image' width={20} height={20} />
+              <span>Repost</span>
+            </div>
+            <div className='flex gap-2 rounded-3xl border-2 items-center p-2 font-semibold bg-[#F5F5F5]'>
+              <Image className='cursor-pointer rounded-full' src='/Star.png' alt='Star image' width={20} height={20} />
+              <span>Favorite</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='flex flex-col bg-white rounded-3xl p-5 w-full gap-4'>
+        <div className='flex flex-col gap-4'>
+          <div className='flex gap-4 items-center'>
+            <Image className='cursor-pointer rounded-full' src='/Treiber.jpg' alt='user avatar' width={54} height={54} />
+            <div className='flex flex-col'>
+              <h1>Rafael Treiber</h1>
+              <span>Sr Brand & Product Designer</span>
+              <div className='flex gap-1 items-center'>
+                <Image src='/Timer.png' alt='Clock icon' width={10} height={9} />
+                <span className='text-[12px]'>1 h</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
